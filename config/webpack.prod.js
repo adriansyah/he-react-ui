@@ -17,6 +17,10 @@ module.exports = {
     libraryTarget: 'umd',
   },
 
+  optimization: {
+    minimizer: [],
+  },
+
   resolve: {
     extensions: ['.js', '.ts', '.tsx'],
   },
