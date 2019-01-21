@@ -137,7 +137,7 @@ const Icon: React.SFC<{
     case 'HealthEngine':
       return <HealthEngine {...restProps} />;
     case 'HealthEngineWithText':
-      return <HealthEngineWithText />;
+      return <HealthEngineWithText {...childProps} />;
     case 'Help':
       return <Help {...childProps} />;
     case 'Home':
