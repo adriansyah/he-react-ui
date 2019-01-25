@@ -3,13 +3,10 @@
 exports[`<Icon /> rendered correctly with Add fixture 1`] = `
 <Icon
   name="Add"
-  shadow={false}
 >
-  <Add
-    className="icon"
-    fill="currentColor"
-    height={32}
-    width={32}
+  <Icon
+    name="Add"
+    shadow={false}
   />
 </Icon>
 `;
@@ -17,13 +14,10 @@ exports[`<Icon /> rendered correctly with Add fixture 1`] = `
 exports[`<Icon /> rendered correctly with Alarm fixture 1`] = `
 <Icon
   name="Alarm"
-  shadow={false}
 >
-  <Alarm
-    className="icon"
-    fill="currentColor"
-    height={32}
-    width={32}
+  <Icon
+    name="Alarm"
+    shadow={false}
   />
 </Icon>
 `;
@@ -31,27 +25,10 @@ exports[`<Icon /> rendered correctly with Alarm fixture 1`] = `
 exports[`<Icon /> rendered correctly with Alert fixture 1`] = `
 <Icon
   name="Alert"
-  shadow={false}
 >
-  <Alert
-    className="icon"
-    fill="currentColor"
-    height={32}
-    width={32}
-  />
-</Icon>
-`;
-
-exports[`<Icon /> rendered correctly with Arr fixture 1`] = `
-<Icon
-  name="Arr"
-  shadow={false}
->
-  <Cross
-    className="icon"
-    fill="currentColor"
-    height={32}
-    width={32}
+  <Icon
+    name="Alert"
+    shadow={false}
   />
 </Icon>
 `;
@@ -59,13 +36,10 @@ exports[`<Icon /> rendered correctly with Arr fixture 1`] = `
 exports[`<Icon /> rendered correctly with ArrowDown fixture 1`] = `
 <Icon
   name="ArrowDown"
-  shadow={false}
 >
-  <ArrowDown
-    className="icon"
-    fill="currentColor"
-    height={32}
-    width={32}
+  <Icon
+    name="ArrowDown"
+    shadow={false}
   />
 </Icon>
 `;
@@ -73,13 +47,10 @@ exports[`<Icon /> rendered correctly with ArrowDown fixture 1`] = `
 exports[`<Icon /> rendered correctly with ArrowLeft fixture 1`] = `
 <Icon
   name="ArrowLeft"
-  shadow={false}
 >
-  <ArrowLeft
-    className="icon"
-    fill="currentColor"
-    height={32}
-    width={32}
+  <Icon
+    name="ArrowLeft"
+    shadow={false}
   />
 </Icon>
 `;
@@ -87,13 +58,10 @@ exports[`<Icon /> rendered correctly with ArrowLeft fixture 1`] = `
 exports[`<Icon /> rendered correctly with ArrowLeft fixture 2`] = `
 <Icon
   name="ArrowLeft"
-  shadow={false}
 >
-  <ArrowLeft
-    className="icon"
-    fill="currentColor"
-    height={32}
-    width={32}
+  <Icon
+    name="ArrowLeft"
+    shadow={false}
   />
 </Icon>
 `;
@@ -101,13 +69,21 @@ exports[`<Icon /> rendered correctly with ArrowLeft fixture 2`] = `
 exports[`<Icon /> rendered correctly with ArrowRight fixture 1`] = `
 <Icon
   name="ArrowRight"
-  shadow={false}
 >
-  <ArrowRight
-    className="icon"
-    fill="currentColor"
-    height={32}
-    width={32}
+  <Icon
+    name="ArrowRight"
+    shadow={false}
+  />
+</Icon>
+`;
+
+exports[`<Icon /> rendered correctly with ArrowRight fixture 2`] = `
+<Icon
+  name="ArrowRight"
+>
+  <Icon
+    name="ArrowRight"
+    shadow={false}
   />
 </Icon>
 `;
@@ -115,13 +91,10 @@ exports[`<Icon /> rendered correctly with ArrowRight fixture 1`] = `
 exports[`<Icon /> rendered correctly with ArrowUp fixture 1`] = `
 <Icon
   name="ArrowUp"
-  shadow={false}
 >
-  <ArrowUp
-    className="icon"
-    fill="currentColor"
-    height={32}
-    width={32}
+  <Icon
+    name="ArrowUp"
+    shadow={false}
   />
 </Icon>
 `;
@@ -129,13 +102,10 @@ exports[`<Icon /> rendered correctly with ArrowUp fixture 1`] = `
 exports[`<Icon /> rendered correctly with BackInTime fixture 1`] = `
 <Icon
   name="BackInTime"
-  shadow={false}
 >
-  <BackInTime
-    className="icon"
-    fill="currentColor"
-    height={32}
-    width={32}
+  <Icon
+    name="BackInTime"
+    shadow={false}
   />
 </Icon>
 `;
@@ -143,13 +113,10 @@ exports[`<Icon /> rendered correctly with BackInTime fixture 1`] = `
 exports[`<Icon /> rendered correctly with Bookings fixture 1`] = `
 <Icon
   name="Bookings"
-  shadow={false}
 >
-  <Bookings
-    className="icon"
-    fill="currentColor"
-    height={32}
-    width={32}
+  <Icon
+    name="Bookings"
+    shadow={false}
   />
 </Icon>
 `;
@@ -157,13 +124,10 @@ exports[`<Icon /> rendered correctly with Bookings fixture 1`] = `
 exports[`<Icon /> rendered correctly with Calendar fixture 1`] = `
 <Icon
   name="Calendar"
-  shadow={false}
 >
-  <Calendar
-    className="icon"
-    fill="currentColor"
-    height={32}
-    width={32}
+  <Icon
+    name="Calendar"
+    shadow={false}
   />
 </Icon>
 `;
@@ -171,13 +135,10 @@ exports[`<Icon /> rendered correctly with Calendar fixture 1`] = `
 exports[`<Icon /> rendered correctly with CaretRight fixture 1`] = `
 <Icon
   name="CaretRight"
-  shadow={false}
 >
-  <CaretRight
-    className="icon"
-    fill="currentColor"
-    height={32}
-    width={32}
+  <Icon
+    name="CaretRight"
+    shadow={false}
   />
 </Icon>
 `;
@@ -185,13 +146,10 @@ exports[`<Icon /> rendered correctly with CaretRight fixture 1`] = `
 exports[`<Icon /> rendered correctly with CheckBoxChecked fixture 1`] = `
 <Icon
   name="CheckBoxChecked"
-  shadow={false}
 >
-  <CheckBoxChecked
-    className="icon"
-    fill="currentColor"
-    height={32}
-    width={32}
+  <Icon
+    name="CheckBoxChecked"
+    shadow={false}
   />
 </Icon>
 `;
@@ -199,13 +157,10 @@ exports[`<Icon /> rendered correctly with CheckBoxChecked fixture 1`] = `
 exports[`<Icon /> rendered correctly with CheckBoxUnchecked fixture 1`] = `
 <Icon
   name="CheckBoxUnchecked"
-  shadow={false}
 >
-  <CheckBoxUnchecked
-    className="icon"
-    fill="currentColor"
-    height={32}
-    width={32}
+  <Icon
+    name="CheckBoxUnchecked"
+    shadow={false}
   />
 </Icon>
 `;
@@ -213,13 +168,10 @@ exports[`<Icon /> rendered correctly with CheckBoxUnchecked fixture 1`] = `
 exports[`<Icon /> rendered correctly with ChevronDown fixture 1`] = `
 <Icon
   name="ChevronDown"
-  shadow={false}
 >
-  <ChevronDown
-    className="icon"
-    fill="currentColor"
-    height={32}
-    width={32}
+  <Icon
+    name="ChevronDown"
+    shadow={false}
   />
 </Icon>
 `;
@@ -227,13 +179,10 @@ exports[`<Icon /> rendered correctly with ChevronDown fixture 1`] = `
 exports[`<Icon /> rendered correctly with ChevronLeft fixture 1`] = `
 <Icon
   name="ChevronLeft"
-  shadow={false}
 >
-  <ChevronLeft
-    className="icon"
-    fill="currentColor"
-    height={32}
-    width={32}
+  <Icon
+    name="ChevronLeft"
+    shadow={false}
   />
 </Icon>
 `;
@@ -241,13 +190,10 @@ exports[`<Icon /> rendered correctly with ChevronLeft fixture 1`] = `
 exports[`<Icon /> rendered correctly with ChevronRight fixture 1`] = `
 <Icon
   name="ChevronRight"
-  shadow={false}
 >
-  <ChevronRight
-    className="icon"
-    fill="currentColor"
-    height={32}
-    width={32}
+  <Icon
+    name="ChevronRight"
+    shadow={false}
   />
 </Icon>
 `;
@@ -255,13 +201,10 @@ exports[`<Icon /> rendered correctly with ChevronRight fixture 1`] = `
 exports[`<Icon /> rendered correctly with ChevronUp fixture 1`] = `
 <Icon
   name="ChevronUp"
-  shadow={false}
 >
-  <ChevronUp
-    className="icon"
-    fill="currentColor"
-    height={32}
-    width={32}
+  <Icon
+    name="ChevronUp"
+    shadow={false}
   />
 </Icon>
 `;
@@ -269,12 +212,10 @@ exports[`<Icon /> rendered correctly with ChevronUp fixture 1`] = `
 exports[`<Icon /> rendered correctly with Clock fixture 1`] = `
 <Icon
   name="Clock"
-  shadow={false}
 >
-  <Clock
-    fill="currentColor"
-    height={32}
-    width={32}
+  <Icon
+    name="Clock"
+    shadow={false}
   />
 </Icon>
 `;
@@ -282,13 +223,10 @@ exports[`<Icon /> rendered correctly with Clock fixture 1`] = `
 exports[`<Icon /> rendered correctly with Cross fixture 1`] = `
 <Icon
   name="Cross"
-  shadow={false}
 >
-  <Cross
-    className="icon"
-    fill="currentColor"
-    height={32}
-    width={32}
+  <Icon
+    name="Cross"
+    shadow={false}
   />
 </Icon>
 `;
@@ -296,12 +234,10 @@ exports[`<Icon /> rendered correctly with Cross fixture 1`] = `
 exports[`<Icon /> rendered correctly with CurvedArrow fixture 1`] = `
 <Icon
   name="CurvedArrow"
-  shadow={false}
 >
-  <CurvedArrow
-    fill="currentColor"
-    height={32}
-    width={32}
+  <Icon
+    name="CurvedArrow"
+    shadow={false}
   />
 </Icon>
 `;
@@ -309,13 +245,10 @@ exports[`<Icon /> rendered correctly with CurvedArrow fixture 1`] = `
 exports[`<Icon /> rendered correctly with Delete fixture 1`] = `
 <Icon
   name="Delete"
-  shadow={false}
 >
-  <Delete
-    className="icon"
-    fill="currentColor"
-    height={32}
-    width={32}
+  <Icon
+    name="Delete"
+    shadow={false}
   />
 </Icon>
 `;
@@ -323,13 +256,10 @@ exports[`<Icon /> rendered correctly with Delete fixture 1`] = `
 exports[`<Icon /> rendered correctly with DeleteProfile fixture 1`] = `
 <Icon
   name="DeleteProfile"
-  shadow={false}
 >
-  <DeleteProfile
-    className="icon"
-    fill="currentColor"
-    height={32}
-    width={32}
+  <Icon
+    name="DeleteProfile"
+    shadow={false}
   />
 </Icon>
 `;
@@ -337,13 +267,10 @@ exports[`<Icon /> rendered correctly with DeleteProfile fixture 1`] = `
 exports[`<Icon /> rendered correctly with Download fixture 1`] = `
 <Icon
   name="Download"
-  shadow={false}
 >
-  <Download
-    className="icon"
-    fill="currentColor"
-    height={32}
-    width={32}
+  <Icon
+    name="Download"
+    shadow={false}
   />
 </Icon>
 `;
@@ -351,13 +278,10 @@ exports[`<Icon /> rendered correctly with Download fixture 1`] = `
 exports[`<Icon /> rendered correctly with DropDown fixture 1`] = `
 <Icon
   name="DropDown"
-  shadow={false}
 >
-  <DropDown
-    className="icon"
-    fill="currentColor"
-    height={32}
-    width={32}
+  <Icon
+    name="DropDown"
+    shadow={false}
   />
 </Icon>
 `;
@@ -365,13 +289,10 @@ exports[`<Icon /> rendered correctly with DropDown fixture 1`] = `
 exports[`<Icon /> rendered correctly with Edit fixture 1`] = `
 <Icon
   name="Edit"
-  shadow={false}
 >
-  <Edit
-    className="icon"
-    fill="currentColor"
-    height={32}
-    width={32}
+  <Icon
+    name="Edit"
+    shadow={false}
   />
 </Icon>
 `;
@@ -379,13 +300,10 @@ exports[`<Icon /> rendered correctly with Edit fixture 1`] = `
 exports[`<Icon /> rendered correctly with Ellipsis fixture 1`] = `
 <Icon
   name="Ellipsis"
-  shadow={false}
 >
-  <Ellipsis
-    className="icon"
-    fill="currentColor"
-    height={32}
-    width={32}
+  <Icon
+    name="Ellipsis"
+    shadow={false}
   />
 </Icon>
 `;
@@ -393,13 +311,10 @@ exports[`<Icon /> rendered correctly with Ellipsis fixture 1`] = `
 exports[`<Icon /> rendered correctly with Engage fixture 1`] = `
 <Icon
   name="Engage"
-  shadow={false}
 >
-  <Engage
-    className="icon"
-    fill="currentColor"
-    height={32}
-    width={32}
+  <Icon
+    name="Engage"
+    shadow={false}
   />
 </Icon>
 `;
@@ -407,19 +322,21 @@ exports[`<Icon /> rendered correctly with Engage fixture 1`] = `
 exports[`<Icon /> rendered correctly with HealthEngine fixture 1`] = `
 <Icon
   name="HealthEngine"
-  shadow={false}
 >
-  <HealthEngine />
+  <Icon
+    name="HealthEngine"
+    shadow={false}
+  />
 </Icon>
 `;
 
 exports[`<Icon /> rendered correctly with HealthEngineWithText fixture 1`] = `
 <Icon
   name="HealthEngineWithText"
-  shadow={false}
 >
-  <HealthEngineWithText
-    className="icon"
+  <Icon
+    name="HealthEngineWithText"
+    shadow={false}
   />
 </Icon>
 `;
@@ -427,13 +344,10 @@ exports[`<Icon /> rendered correctly with HealthEngineWithText fixture 1`] = `
 exports[`<Icon /> rendered correctly with Help fixture 1`] = `
 <Icon
   name="Help"
-  shadow={false}
 >
-  <Help
-    className="icon"
-    fill="currentColor"
-    height={32}
-    width={32}
+  <Icon
+    name="Help"
+    shadow={false}
   />
 </Icon>
 `;
@@ -441,13 +355,10 @@ exports[`<Icon /> rendered correctly with Help fixture 1`] = `
 exports[`<Icon /> rendered correctly with Home fixture 1`] = `
 <Icon
   name="Home"
-  shadow={false}
 >
-  <Help
-    className="icon"
-    fill="currentColor"
-    height={32}
-    width={32}
+  <Icon
+    name="Home"
+    shadow={false}
   />
 </Icon>
 `;
@@ -455,13 +366,10 @@ exports[`<Icon /> rendered correctly with Home fixture 1`] = `
 exports[`<Icon /> rendered correctly with Info fixture 1`] = `
 <Icon
   name="Info"
-  shadow={false}
 >
-  <Info
-    className="icon"
-    fill="currentColor"
-    height={32}
-    width={32}
+  <Icon
+    name="Info"
+    shadow={false}
   />
 </Icon>
 `;
@@ -469,13 +377,10 @@ exports[`<Icon /> rendered correctly with Info fixture 1`] = `
 exports[`<Icon /> rendered correctly with Language fixture 1`] = `
 <Icon
   name="Language"
-  shadow={false}
 >
-  <Language
-    className="icon"
-    fill="currentColor"
-    height={32}
-    width={32}
+  <Icon
+    name="Language"
+    shadow={false}
   />
 </Icon>
 `;
@@ -483,13 +388,21 @@ exports[`<Icon /> rendered correctly with Language fixture 1`] = `
 exports[`<Icon /> rendered correctly with List fixture 1`] = `
 <Icon
   name="List"
-  shadow={false}
 >
-  <List
-    className="icon"
-    fill="currentColor"
-    height={32}
-    width={32}
+  <Icon
+    name="List"
+    shadow={false}
+  />
+</Icon>
+`;
+
+exports[`<Icon /> rendered correctly with Location fixture 1`] = `
+<Icon
+  name="Location"
+>
+  <Icon
+    name="Location"
+    shadow={false}
   />
 </Icon>
 `;
@@ -497,13 +410,10 @@ exports[`<Icon /> rendered correctly with List fixture 1`] = `
 exports[`<Icon /> rendered correctly with Lock fixture 1`] = `
 <Icon
   name="Lock"
-  shadow={false}
 >
-  <Lock
-    className="icon"
-    fill="currentColor"
-    height={32}
-    width={32}
+  <Icon
+    name="Lock"
+    shadow={false}
   />
 </Icon>
 `;
@@ -511,13 +421,10 @@ exports[`<Icon /> rendered correctly with Lock fixture 1`] = `
 exports[`<Icon /> rendered correctly with Logout fixture 1`] = `
 <Icon
   name="Logout"
-  shadow={false}
 >
-  <Logout
-    className="icon"
-    fill="currentColor"
-    height={32}
-    width={32}
+  <Icon
+    name="Logout"
+    shadow={false}
   />
 </Icon>
 `;
@@ -525,13 +432,10 @@ exports[`<Icon /> rendered correctly with Logout fixture 1`] = `
 exports[`<Icon /> rendered correctly with Megaphone fixture 1`] = `
 <Icon
   name="Megaphone"
-  shadow={false}
 >
-  <Megaphone
-    className="icon"
-    fill="currentColor"
-    height={32}
-    width={32}
+  <Icon
+    name="Megaphone"
+    shadow={false}
   />
 </Icon>
 `;
@@ -539,13 +443,10 @@ exports[`<Icon /> rendered correctly with Megaphone fixture 1`] = `
 exports[`<Icon /> rendered correctly with Patients fixture 1`] = `
 <Icon
   name="Patients"
-  shadow={false}
 >
-  <Patients
-    className="icon"
-    fill="currentColor"
-    height={32}
-    width={32}
+  <Icon
+    name="Patients"
+    shadow={false}
   />
 </Icon>
 `;
@@ -553,13 +454,32 @@ exports[`<Icon /> rendered correctly with Patients fixture 1`] = `
 exports[`<Icon /> rendered correctly with Pencil fixture 1`] = `
 <Icon
   name="Pencil"
-  shadow={false}
 >
-  <Pencil
-    className="icon"
-    fill="currentColor"
-    height={32}
-    width={32}
+  <Icon
+    name="Pencil"
+    shadow={false}
+  />
+</Icon>
+`;
+
+exports[`<Icon /> rendered correctly with People fixture 1`] = `
+<Icon
+  name="People"
+>
+  <Icon
+    name="People"
+    shadow={false}
+  />
+</Icon>
+`;
+
+exports[`<Icon /> rendered correctly with Person fixture 1`] = `
+<Icon
+  name="Person"
+>
+  <Icon
+    name="Person"
+    shadow={false}
   />
 </Icon>
 `;
@@ -567,13 +487,10 @@ exports[`<Icon /> rendered correctly with Pencil fixture 1`] = `
 exports[`<Icon /> rendered correctly with RadioChecked fixture 1`] = `
 <Icon
   name="RadioChecked"
-  shadow={false}
 >
-  <RadioChecked
-    className="icon"
-    fill="currentColor"
-    height={32}
-    width={32}
+  <Icon
+    name="RadioChecked"
+    shadow={false}
   />
 </Icon>
 `;
@@ -581,13 +498,10 @@ exports[`<Icon /> rendered correctly with RadioChecked fixture 1`] = `
 exports[`<Icon /> rendered correctly with RadioUnchecked fixture 1`] = `
 <Icon
   name="RadioUnchecked"
-  shadow={false}
 >
-  <RadioUnchecked
-    className="icon"
-    fill="currentColor"
-    height={32}
-    width={32}
+  <Icon
+    name="RadioUnchecked"
+    shadow={false}
   />
 </Icon>
 `;
@@ -595,13 +509,10 @@ exports[`<Icon /> rendered correctly with RadioUnchecked fixture 1`] = `
 exports[`<Icon /> rendered correctly with Search fixture 1`] = `
 <Icon
   name="Search"
-  shadow={false}
 >
-  <Search
-    className="icon"
-    fill="currentColor"
-    height={32}
-    width={32}
+  <Icon
+    name="Search"
+    shadow={false}
   />
 </Icon>
 `;
@@ -609,13 +520,10 @@ exports[`<Icon /> rendered correctly with Search fixture 1`] = `
 exports[`<Icon /> rendered correctly with Settings fixture 1`] = `
 <Icon
   name="Settings"
-  shadow={false}
 >
-  <Settings
-    className="icon"
-    fill="currentColor"
-    height={32}
-    width={32}
+  <Icon
+    name="Settings"
+    shadow={false}
   />
 </Icon>
 `;
@@ -623,13 +531,59 @@ exports[`<Icon /> rendered correctly with Settings fixture 1`] = `
 exports[`<Icon /> rendered correctly with Sync fixture 1`] = `
 <Icon
   name="Sync"
-  shadow={false}
 >
-  <Sync
-    className="icon"
-    fill="currentColor"
-    height={32}
-    width={32}
+  <Icon
+    name="Sync"
+    shadow={false}
+  />
+</Icon>
+`;
+
+exports[`<Icon /> rendered correctly with Thumb fixture 1`] = `
+<Icon
+  name="Thumb"
+>
+  <Icon
+    name="Thumb"
+    shadow={false}
+  />
+</Icon>
+`;
+
+exports[`<Icon /> rendered correctly with ThumbDark fixture 1`] = `
+<Icon
+  dark={true}
+  name="Thumb"
+>
+  <Icon
+    dark={true}
+    name="Thumb"
+    shadow={false}
+  />
+</Icon>
+`;
+
+exports[`<Icon /> rendered correctly with ThumbDown fixture 1`] = `
+<Icon
+  down={true}
+  name="Thumb"
+>
+  <Icon
+    down={true}
+    name="Thumb"
+    shadow={false}
+  />
+</Icon>
+`;
+
+exports[`<Icon /> rendered correctly with ThumbShadow fixture 1`] = `
+<Icon
+  name="Thumb"
+  shadow={true}
+>
+  <Icon
+    name="Thumb"
+    shadow={true}
   />
 </Icon>
 `;
@@ -637,13 +591,21 @@ exports[`<Icon /> rendered correctly with Sync fixture 1`] = `
 exports[`<Icon /> rendered correctly with Tick fixture 1`] = `
 <Icon
   name="Tick"
-  shadow={false}
 >
-  <Tick
-    className="icon"
-    fill="currentColor"
-    height={32}
-    width={32}
+  <Icon
+    name="Tick"
+    shadow={false}
+  />
+</Icon>
+`;
+
+exports[`<Icon /> rendered correctly with Unrecognised Name fixture 1`] = `
+<Icon
+  name="Some name an icon will probably never have"
+>
+  <Icon
+    name="Some name an icon will probably never have"
+    shadow={false}
   />
 </Icon>
 `;
@@ -651,13 +613,10 @@ exports[`<Icon /> rendered correctly with Tick fixture 1`] = `
 exports[`<Icon /> rendered correctly with UserShield fixture 1`] = `
 <Icon
   name="UserShield"
-  shadow={false}
 >
-  <UserShield
-    className="icon"
-    fill="currentColor"
-    height={32}
-    width={32}
+  <Icon
+    name="UserShield"
+    shadow={false}
   />
 </Icon>
 `;
@@ -665,13 +624,10 @@ exports[`<Icon /> rendered correctly with UserShield fixture 1`] = `
 exports[`<Icon /> rendered correctly with UserShieldPrivacy fixture 1`] = `
 <Icon
   name="UserShieldPrivacy"
-  shadow={false}
 >
-  <UserShieldPrivacy
-    className="icon"
-    fill="currentColor"
-    height={32}
-    width={32}
+  <Icon
+    name="UserShieldPrivacy"
+    shadow={false}
   />
 </Icon>
 `;
@@ -679,13 +635,10 @@ exports[`<Icon /> rendered correctly with UserShieldPrivacy fixture 1`] = `
 exports[`<Icon /> rendered correctly with View fixture 1`] = `
 <Icon
   name="View"
-  shadow={false}
 >
-  <View
-    className="icon"
-    fill="currentColor"
-    height={32}
-    width={32}
+  <Icon
+    name="View"
+    shadow={false}
   />
 </Icon>
 `;
