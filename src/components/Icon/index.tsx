@@ -38,6 +38,7 @@ import Info from './Info';
 import style from './Icon.scss';
 import Language from './Language';
 import List from './List';
+import Location from './Location';
 import Lock from './Lock';
 import Logout from './Logout';
 import Megaphone from './Megaphone';
@@ -150,6 +151,8 @@ const Icon: React.SFC<{
       return <List {...childProps} />;
     case 'Lock':
       return <Lock {...childProps} />;
+    case 'Location':
+      return <Location {...childProps} />;
     case 'Logout':
       return <Logout {...childProps} />;
     case 'Megaphone':

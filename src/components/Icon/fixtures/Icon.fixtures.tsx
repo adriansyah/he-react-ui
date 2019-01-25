@@ -1,10 +1,18 @@
-import Icon from '../';
+import React from 'react';
+import IconComponent from '../index';
+
+const Icon = (props: any) => <IconComponent {...props} />;
 
 export default [
+  {
+    name: 'Unrecognised Name',
+    component: Icon,
+    props: { name: 'Some name an icon will probably never have' },
+  },
   { name: 'Add', component: Icon, props: { name: 'Add' } },
   { name: 'Alarm', component: Icon, props: { name: 'Alarm' } },
   { name: 'Alert', component: Icon, props: { name: 'Alert' } },
-  { name: 'Arr', component: Icon, props: { name: 'Arr' } },
+  { name: 'ArrowRight', component: Icon, props: { name: 'ArrowRight' } },
   { name: 'ArrowLeft', component: Icon, props: { name: 'ArrowLeft' } },
   { name: 'BackInTime', component: Icon, props: { name: 'BackInTime' } },
   { name: 'Bookings', component: Icon, props: { name: 'Bookings' } },
@@ -14,6 +22,8 @@ export default [
   { name: 'CurvedArrow', component: Icon, props: { name: 'CurvedArrow' } },
   { name: 'Cross', component: Icon, props: { name: 'Cross' } },
   { name: 'Delete', component: Icon, props: { name: 'Delete' } },
+  { name: 'DeleteProfile', component: Icon, props: { name: 'DeleteProfile' } },
+  { name: 'Download', component: Icon, props: { name: 'Download' } },
   { name: 'DropDown', component: Icon, props: { name: 'DropDown' } },
   { name: 'Edit', component: Icon, props: { name: 'Edit' } },
   { name: 'Ellipsis', component: Icon, props: { name: 'Ellipsis' } },
@@ -30,13 +40,31 @@ export default [
   { name: 'Language', component: Icon, props: { name: 'Language' } },
   { name: 'List', component: Icon, props: { name: 'List' } },
   { name: 'Lock', component: Icon, props: { name: 'Lock' } },
+  { name: 'Location', component: Icon, props: { name: 'Location' } },
   { name: 'Logout', component: Icon, props: { name: 'Logout' } },
   { name: 'Megaphone', component: Icon, props: { name: 'Megaphone' } },
   { name: 'Patients', component: Icon, props: { name: 'Patients' } },
+  { name: 'Pencil', component: Icon, props: { name: 'Pencil' } },
+  { name: 'People', component: Icon, props: { name: 'People' } },
+  { name: 'Person', component: Icon, props: { name: 'Person' } },
   { name: 'Search', component: Icon, props: { name: 'Search' } },
   { name: 'Settings', component: Icon, props: { name: 'Settings' } },
+  { name: 'UserShield', component: Icon, props: { name: 'UserShield' } },
+  {
+    name: 'UserShieldPrivacy',
+    component: Icon,
+    props: { name: 'UserShieldPrivacy' },
+  },
   { name: 'Sync', component: Icon, props: { name: 'Sync' } },
   { name: 'Tick', component: Icon, props: { name: 'Tick' } },
+  { name: 'Thumb', component: Icon, props: { name: 'Thumb' } },
+  { name: 'ThumbDark', component: Icon, props: { name: 'Thumb', dark: true } },
+  { name: 'ThumbDown', component: Icon, props: { name: 'Thumb', down: true } },
+  {
+    name: 'ThumbShadow',
+    component: Icon,
+    props: { name: 'Thumb', shadow: true },
+  },
   { name: 'View', component: Icon, props: { name: 'View' } },
   { name: 'ChevronUp', component: Icon, props: { name: 'ChevronUp' } },
   { name: 'ChevronDown', component: Icon, props: { name: 'ChevronDown' } },
@@ -62,13 +90,4 @@ export default [
   { name: 'ArrowLeft', component: Icon, props: { name: 'ArrowLeft' } },
   { name: 'ArrowRight', component: Icon, props: { name: 'ArrowRight' } },
   { name: 'ArrowUp', component: Icon, props: { name: 'ArrowUp' } },
-  { name: 'DeleteProfile', component: Icon, props: { name: 'DeleteProfile' } },
-  { name: 'Download', component: Icon, props: { name: 'Download' } },
-  { name: 'UserShield', component: Icon, props: { name: 'UserShield' } },
-  {
-    name: 'UserShieldPrivacy',
-    component: Icon,
-    props: { name: 'UserShieldPrivacy' },
-  },
-  { name: 'Pencil', component: Icon, props: { name: 'Pencil' } },
 ];

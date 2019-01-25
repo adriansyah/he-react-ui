@@ -1,4 +1,4 @@
 import testFixture from '../../../../config/testFixture';
-import Icon from '../fixtures/Icon.fixture';
+import all from '../fixtures/Icon.fixtures';
 
-testFixture(Icon);
+testFixture(all);
