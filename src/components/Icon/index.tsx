@@ -48,6 +48,7 @@ import People from './People';
 import Person from './Person';
 import Search from './Search';
 import Settings from './Settings';
+import Subtract from './Subtract';
 import Sync from './Sync';
 import Thumb from './Thumb';
 import Tick from './Tick';
@@ -173,6 +174,8 @@ const Icon: React.SFC<{
       return <Search {...childProps} />;
     case 'Settings':
       return <Settings {...childProps} />;
+    case 'Subtract':
+      return <Subtract {...childProps} />;
     case 'Sync':
       return <Sync {...childProps} />;
     case 'Thumb':
