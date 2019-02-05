@@ -528,6 +528,17 @@ exports[`<Icon /> rendered correctly with Settings fixture 1`] = `
 </Icon>
 `;
 
+exports[`<Icon /> rendered correctly with Subtract fixture 1`] = `
+<Icon
+  name="Subtract"
+>
+  <Icon
+    name="Subtract"
+    shadow={false}
+  />
+</Icon>
+`;
+
 exports[`<Icon /> rendered correctly with Sync fixture 1`] = `
 <Icon
   name="Sync"
