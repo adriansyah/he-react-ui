@@ -42,6 +42,7 @@ export default [
   { name: 'Lock', component: Icon, props: { name: 'Lock' } },
   { name: 'Location', component: Icon, props: { name: 'Location' } },
   { name: 'Logout', component: Icon, props: { name: 'Logout' } },
+  { name: 'MapMarker', component: Icon, props: { name: 'MapMarker' } },
   { name: 'Megaphone', component: Icon, props: { name: 'Megaphone' } },
   { name: 'Patients', component: Icon, props: { name: 'Patients' } },
   { name: 'Pencil', component: Icon, props: { name: 'Pencil' } },

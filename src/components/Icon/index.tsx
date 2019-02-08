@@ -41,6 +41,7 @@ import List from './List';
 import Location from './Location';
 import Lock from './Lock';
 import Logout from './Logout';
+import MapMarker from './MapMarker';
 import Megaphone from './Megaphone';
 import Patients from './Patients';
 import Pencil from './Pencil';
@@ -156,6 +157,8 @@ const Icon: React.SFC<{
       return <Location {...childProps} />;
     case 'Logout':
       return <Logout {...childProps} />;
+    case 'MapMarker':
+      return <MapMarker {...childProps} />;
     case 'Megaphone':
       return <Megaphone {...childProps} />;
     case 'Patients':
