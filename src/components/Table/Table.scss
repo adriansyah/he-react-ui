@@ -111,6 +111,11 @@
   }
 }
 
+.childrenRow {
+  display: flex;
+  padding: 0 44px;
+}
+
 .extraWide {
   flex-grow: 4;
 }

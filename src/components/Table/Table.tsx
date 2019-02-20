@@ -4,7 +4,7 @@
 
 // Vendor
 import classnames from 'classnames';
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import DropDown from '../Icon/DropDown';
 import { LoadingSpinner, LoadingStrip } from '../Loading';
 import style from './Table.scss';
@@ -36,6 +36,7 @@ type Props = {
   body: {
     inactive: boolean;
     content: any[];
+    children: HTMLElement;
   }[];
   onRowClick?: Function;
 };
@@ -78,27 +79,33 @@ class Table extends Component<Props, any> {
 
     if (columns && columns.length && sortedBody && sortedBody.length > 0) {
       return sortedBody.map((row, rowIndex) => (
-        <div
-          className={classnames(style.row, {
-            [style.inactive]: row.inactive,
-            [style.clickable]: onRowClick,
-          })}
+        <Fragment
           key={rowIndex} // eslint-disable-line react/no-array-index-key
-          onClick={() => (onRowClick ? onRowClick(row) : null)}
         >
-          {row.content.map((cell, cellIndex) => (
-            <div
-              className={classnames(style.cell, {
-                [style[columns[cellIndex].width]]: columns[cellIndex].width,
-                [style[`row${columns[cellIndex].align}`]]:
-                  columns[cellIndex].align,
-              })}
-              key={cellIndex} // eslint-disable-line react/no-array-index-key
-            >
-              {cell}
-            </div>
-          ))}
-        </div>
+          <div
+            className={classnames(style.row, {
+              [style.inactive]: row.inactive,
+              [style.clickable]: onRowClick,
+            })}
+            onClick={() => (onRowClick ? onRowClick(row) : null)}
+          >
+            {row.content.map((cell, cellIndex) => (
+              <div
+                className={classnames(style.cell, {
+                  [style[columns[cellIndex].width]]: columns[cellIndex].width,
+                  [style[`row${columns[cellIndex].align}`]]:
+                    columns[cellIndex].align,
+                })}
+                key={cellIndex} // eslint-disable-line react/no-array-index-key
+              >
+                {cell}
+              </div>
+            ))}
+          </div>
+          {row.children && (
+            <div className={style.childrenRow}>{row.children}</div>
+          )}
+        </Fragment>
       ));
     }
     return <LoadingSpinner className={style.bodyLoading} />;

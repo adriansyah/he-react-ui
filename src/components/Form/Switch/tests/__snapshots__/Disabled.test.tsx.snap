@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Switch /> rendered correctly with disabled fixture 1`] = `
+<Switch
+  checked={false}
+  disabled={true}
+  error=""
+  id="demo"
+  label="Label"
+  name="demo"
+  onChange={[Function]}
+>
+  <div
+    checked={false}
+    className="outer disabled"
+    error=""
+    id="demo"
+    name="demo"
+    onClick={[Function]}
+  >
+    <div
+      className="switchContainer"
+    >
+      <input
+        className="toggleSwitch"
+        type="checkbox"
+      />
+      <span
+        className="toggleSlider"
+      />
+    </div>
+    <span
+      className="text"
+    >
+      Label
+    </span>
+  </div>
+</Switch>
+`;

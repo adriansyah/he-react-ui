@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Switch /> rendered correctly with Value fixture 1`] = `
+<Switch
+  checked={false}
+  disabled={false}
+  error=""
+  id="demo"
+  label="Label"
+  name="demo"
+  onChange={[Function]}
+  value={true}
+>
+  <div
+    checked={false}
+    className="outer"
+    error=""
+    id="demo"
+    name="demo"
+    onClick={[Function]}
+  >
+    <div
+      className="switchContainer"
+    >
+      <input
+        className="toggleSwitch checked"
+        type="checkbox"
+      />
+      <span
+        className="toggleSlider"
+      >
+        <span
+          className="iconTickContainer"
+        >
+          <Icon
+            className="iconTick"
+            name="Tick"
+            shadow={false}
+          />
+        </span>
+      </span>
+    </div>
+    <span
+      className="text"
+    >
+      Label
+    </span>
+  </div>
+</Switch>
+`;

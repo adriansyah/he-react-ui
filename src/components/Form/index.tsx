@@ -6,6 +6,7 @@ import InlineSelector from './InlineSelector';
 import Label from './Label';
 import Radio from './Radio';
 import SingleSelect from './SingleSelect';
+import Switch from './Switch';
 import TextField from './TextField';
 import TimeSelector from './TimeSelector';
 
@@ -19,6 +20,7 @@ export {
   Label,
   Radio,
   SingleSelect,
+  Switch,
   TextField,
   TimeSelector,
 };

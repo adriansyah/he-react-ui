@@ -121,7 +121,6 @@ exports[`<Table /> rendered correctly with Default fixture 1`] = `
     >
       <div
         className="row"
-        key="0"
         onClick={[Function]}
       >
         <div
@@ -151,7 +150,6 @@ exports[`<Table /> rendered correctly with Default fixture 1`] = `
       </div>
       <div
         className="row"
-        key="1"
         onClick={[Function]}
       >
         <div
@@ -181,7 +179,6 @@ exports[`<Table /> rendered correctly with Default fixture 1`] = `
       </div>
       <div
         className="row"
-        key="2"
         onClick={[Function]}
       >
         <div
@@ -211,7 +208,6 @@ exports[`<Table /> rendered correctly with Default fixture 1`] = `
       </div>
       <div
         className="row"
-        key="3"
         onClick={[Function]}
       >
         <div
@@ -241,7 +237,6 @@ exports[`<Table /> rendered correctly with Default fixture 1`] = `
       </div>
       <div
         className="row"
-        key="4"
         onClick={[Function]}
       >
         <div

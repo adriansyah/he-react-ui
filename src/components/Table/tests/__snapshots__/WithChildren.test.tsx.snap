@@ -1,10 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Table /> rendered correctly with Inactive fixture 1`] = `
+exports[`<Table /> rendered correctly with WithChildren fixture 1`] = `
 <Table
   body={
     Array [
       Object {
+        "children": <h3>
+          Story of Barry Fullerman
+        </h3>,
         "content": Array [
           "Barry Fullerman",
           "Chiropractor",
@@ -27,7 +30,6 @@ exports[`<Table /> rendered correctly with Inactive fixture 1`] = `
           "23/06/1021",
           "Immortal",
         ],
-        "inactive": true,
       },
       Object {
         "content": Array [
@@ -36,7 +38,6 @@ exports[`<Table /> rendered correctly with Inactive fixture 1`] = `
           "15/09/1984",
           "Inactive",
         ],
-        "inactive": true,
       },
       Object {
         "content": Array [
@@ -151,6 +152,13 @@ exports[`<Table /> rendered correctly with Inactive fixture 1`] = `
         </div>
       </div>
       <div
+        className="childrenRow"
+      >
+        <h3>
+          Story of Barry Fullerman
+        </h3>
+      </div>
+      <div
         className="row"
         onClick={[Function]}
       >
@@ -180,7 +188,7 @@ exports[`<Table /> rendered correctly with Inactive fixture 1`] = `
         </div>
       </div>
       <div
-        className="row inactive"
+        className="row"
         onClick={[Function]}
       >
         <div
@@ -209,7 +217,7 @@ exports[`<Table /> rendered correctly with Inactive fixture 1`] = `
         </div>
       </div>
       <div
-        className="row inactive"
+        className="row"
         onClick={[Function]}
       >
         <div
