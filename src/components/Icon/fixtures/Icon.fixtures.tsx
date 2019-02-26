@@ -1,5 +1,5 @@
 import React from 'react';
-import IconComponent from '../index';
+import IconComponent from '..';
 
 const Icon = (props: any) => <IconComponent {...props} />;
 

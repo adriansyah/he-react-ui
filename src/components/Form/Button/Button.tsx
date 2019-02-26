@@ -7,7 +7,7 @@
 import classnames from 'classnames';
 import React, { Fragment } from 'react';
 import { returnNull } from '../../../util';
-import Icon from '../../Icon';
+import Icon, { IconTick } from '../../Icon';
 import styles from './Button.scss';
 import ButtonSpinner from './ButtonSpinner';
 import InnerButton from './InnerButton';
@@ -42,6 +42,7 @@ class Button extends React.Component<Props> {
     submit: false,
     link: false,
     color: 'teal',
+    /* @deprecated Since version 3.0.7. Will be removed in version 4.0. Use iconLeft and iconRight properties instead */
     icon: '',
     keyline: false,
     disabled: false,
@@ -114,7 +115,7 @@ class Button extends React.Component<Props> {
 
     const statusIcon = done ? (
       <div className={styles.iconCenter}>
-        <Icon name="Tick" />
+        <IconTick />
       </div>
     ) : (
       submittingIcon

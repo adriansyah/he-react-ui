@@ -7,7 +7,7 @@
 import classnames from 'classnames';
 import React from 'react';
 import { returnNull } from '../../../util';
-import Icon from '../../Icon';
+import Icon from '../../Icon/Icon';
 import style from './ActionIcon.scss';
 
 type Props = {

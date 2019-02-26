@@ -1,204 +1,119 @@
-import classnames from 'classnames';
-import React from 'react';
-import Add from './Add';
-import Alarm from './Alarm';
-import Alert from './Alert';
+import IconAdd from './Add';
+import IconAlarm from './Alarm';
+import IconAlert from './Alert';
 import {
-  ArrowLeft,
-  ArrowRight,
-  ArrowUp,
-  ArrowDown,
-  CurvedArrow,
+  ArrowLeft as IconArrowLeft,
+  ArrowRight as IconArrowRight,
+  ArrowUp as IconArrowUp,
+  ArrowDown as IconArrowDown,
+  CurvedArrow as IconCurvedArrow,
 } from './Arrows';
-import BackInTime from './BackInTime';
-import Bookings from './Bookings';
-import Calendar from './Calendar';
-import CaretRight from './CaretRight';
+import IconBackInTime from './BackInTime';
+import IconBookings from './Bookings';
+import IconCalendar from './Calendar';
+import IconCaretRight from './CaretRight';
 import {
-  CheckBoxChecked,
-  CheckBoxUnchecked,
-  RadioChecked,
-  RadioUnchecked,
+  CheckBoxChecked as IconCheckBoxChecked,
+  CheckBoxUnchecked as IconCheckBoxUnchecked,
+  RadioChecked as IconRadioChecked,
+  RadioUnchecked as IconRadioUnchecked,
 } from './CheckBoxes';
-import { ChevronDown, ChevronLeft, ChevronRight, ChevronUp } from './Chevrons';
-import Clock from './Clock';
-import Cross from './Cross';
-import Delete from './Delete';
-import DeleteProfile from './DeleteProfile';
-import Download from './Download';
-import DropDown from './DropDown';
-import Edit from './Edit';
-import Ellipsis from './Ellipsis';
-import Engage from './Engage';
-import HealthEngine from './HealthEngine';
-import HealthEngineWithText from './HealthEngineWithText';
-import Help from './Help';
-import Home from './Home';
-import Info from './Info';
-import style from './Icon.scss';
-import Language from './Language';
-import List from './List';
-import Location from './Location';
-import Lock from './Lock';
-import Logout from './Logout';
-import MapMarker from './MapMarker';
-import Megaphone from './Megaphone';
-import Patients from './Patients';
-import Pencil from './Pencil';
-import People from './People';
-import Person from './Person';
-import Search from './Search';
-import Settings from './Settings';
-import Subtract from './Subtract';
-import Sync from './Sync';
-import Thumb from './Thumb';
-import Tick from './Tick';
-import UserShield from './UserShield';
-import UserShieldPrivacy from './UserShieldPrivacy';
-import View from './View';
-
-type Color = 'teal' | 'blue' | 'green' | 'red' | 'white';
-
-const Icon: React.SFC<{
-  width?: number;
-  height?: number;
-  color?: Color;
-  shadow?: boolean;
-  className?: string;
-  name: string;
-  style?: {};
-}> = props => {
-  const { width, height, color, className, name, shadow, ...restProps } = props;
-  const classes = classnames(
-    style.icon,
-    color && style[color],
-    shadow && style.shadow,
-    className,
-  );
-  const childProps = {
-    width,
-    height,
-    className: classes,
-    ...restProps,
-  };
-
-  switch (name) {
-    case 'Add':
-      return <Add {...childProps} />;
-    case 'Alarm':
-      return <Alarm {...childProps} />;
-    case 'Alert':
-      return <Alert {...childProps} />;
-    case 'ArrowLeft':
-      return <ArrowLeft {...childProps} />;
-    case 'ArrowRight':
-      return <ArrowRight {...childProps} />;
-    case 'ArrowUp':
-      return <ArrowUp {...childProps} />;
-    case 'ArrowDown':
-      return <ArrowDown {...childProps} />;
-    case 'BackInTime':
-      return <BackInTime {...childProps} />;
-    case 'Bookings':
-      return <Bookings {...childProps} />;
-    case 'Calendar':
-      return <Calendar {...childProps} />;
-    case 'CaretRight':
-      return <CaretRight {...childProps} />;
-    case 'CheckBoxChecked':
-      return <CheckBoxChecked {...childProps} />;
-    case 'CheckBoxUnchecked':
-      return <CheckBoxUnchecked {...childProps} />;
-    case 'ChevronLeft':
-      return <ChevronLeft {...childProps} />;
-    case 'ChevronRight':
-      return <ChevronRight {...childProps} />;
-    case 'ChevronUp':
-      return <ChevronUp {...childProps} />;
-    case 'ChevronDown':
-      return <ChevronDown {...childProps} />;
-    case 'Clock':
-      return <Clock />;
-    case 'CurvedArrow':
-      return <CurvedArrow />;
-    case 'Cross':
-      return <Cross {...childProps} />;
-    case 'Delete':
-      return <Delete {...childProps} />;
-    case 'DeleteProfile':
-      return <DeleteProfile {...childProps} />;
-    case 'Download':
-      return <Download {...childProps} />;
-    case 'DropDown':
-      return <DropDown {...childProps} />;
-    case 'Edit':
-      return <Edit {...childProps} />;
-    case 'Ellipsis':
-      return <Ellipsis {...childProps} />;
-    case 'Engage':
-      return <Engage {...childProps} />;
-    case 'HealthEngine':
-      return <HealthEngine {...restProps} />;
-    case 'HealthEngineWithText':
-      return <HealthEngineWithText {...childProps} />;
-    case 'Help':
-      return <Help {...childProps} />;
-    case 'Home':
-      return <Home {...childProps} />;
-    case 'Info':
-      return <Info {...childProps} />;
-    case 'Language':
-      return <Language {...childProps} />;
-    case 'List':
-      return <List {...childProps} />;
-    case 'Lock':
-      return <Lock {...childProps} />;
-    case 'Location':
-      return <Location {...childProps} />;
-    case 'Logout':
-      return <Logout {...childProps} />;
-    case 'MapMarker':
-      return <MapMarker {...childProps} />;
-    case 'Megaphone':
-      return <Megaphone {...childProps} />;
-    case 'Patients':
-      return <Patients {...childProps} />;
-    case 'People':
-      return <People {...childProps} />;
-    case 'Person':
-      return <Person {...childProps} />;
-    case 'Pencil':
-      return <Pencil {...childProps} />;
-    case 'RadioChecked':
-      return <RadioChecked {...childProps} />;
-    case 'RadioUnchecked':
-      return <RadioUnchecked {...childProps} />;
-    case 'Search':
-      return <Search {...childProps} />;
-    case 'Settings':
-      return <Settings {...childProps} />;
-    case 'Subtract':
-      return <Subtract {...childProps} />;
-    case 'Sync':
-      return <Sync {...childProps} />;
-    case 'Thumb':
-      return <Thumb {...childProps} />;
-    case 'Tick':
-      return <Tick {...childProps} />;
-    case 'UserShield':
-      return <UserShield {...childProps} />;
-    case 'UserShieldPrivacy':
-      return <UserShieldPrivacy {...childProps} />;
-    case 'View':
-      return <View {...childProps} />;
-    default:
-      return <Cross {...childProps} />;
-  }
-};
-
-Icon.defaultProps = {
-  name: 'Cross',
-  shadow: false,
-};
+import {
+  ChevronDown as IconChevronDown,
+  ChevronLeft as IconChevronLeft,
+  ChevronRight as IconChevronRight,
+  ChevronUp as IconChevronUp,
+} from './Chevrons';
+import IconClock from './Clock';
+import IconCross from './Cross';
+import IconDelete from './Delete';
+import IconDeleteProfile from './DeleteProfile';
+import IconDownload from './Download';
+import IconDropDown from './DropDown';
+import IconEdit from './Edit';
+import IconEllipsis from './Ellipsis';
+import IconEngage from './Engage';
+import IconHealthEngine from './HealthEngine';
+import IconHealthEngineWithText from './HealthEngineWithText';
+import IconHelp from './Help';
+import IconHome from './Home';
+import IconInfo from './Info';
+import IconLanguage from './Language';
+import IconList from './List';
+import IconLocation from './Location';
+import IconLock from './Lock';
+import IconLogout from './Logout';
+import IconMapMarker from './MapMarker';
+import IconMegaphone from './Megaphone';
+import IconPatients from './Patients';
+import IconPencil from './Pencil';
+import IconPeople from './People';
+import IconPerson from './Person';
+import IconSearch from './Search';
+import IconSettings from './Settings';
+import IconSubtract from './Subtract';
+import IconSync from './Sync';
+import IconThumb from './Thumb';
+import IconTick from './Tick';
+import IconUserShield from './UserShield';
+import IconUserShieldPrivacy from './UserShieldPrivacy';
+import IconView from './View';
+import Icon from './Icon';
 
 export default Icon;
+export {
+  IconAdd,
+  IconAlarm,
+  IconAlert,
+  IconArrowLeft,
+  IconArrowRight,
+  IconArrowUp,
+  IconArrowDown,
+  IconCurvedArrow,
+  IconBackInTime,
+  IconBookings,
+  IconCalendar,
+  IconCaretRight,
+  IconCheckBoxChecked,
+  IconCheckBoxUnchecked,
+  IconRadioChecked,
+  IconRadioUnchecked,
+  IconChevronDown,
+  IconChevronLeft,
+  IconChevronRight,
+  IconChevronUp,
+  IconClock,
+  IconCross,
+  IconDelete,
+  IconDeleteProfile,
+  IconDownload,
+  IconDropDown,
+  IconEdit,
+  IconEllipsis,
+  IconEngage,
+  IconHealthEngine,
+  IconHealthEngineWithText,
+  IconHelp,
+  IconHome,
+  IconInfo,
+  IconLanguage,
+  IconList,
+  IconLocation,
+  IconLock,
+  IconLogout,
+  IconMapMarker,
+  IconMegaphone,
+  IconPatients,
+  IconPencil,
+  IconPeople,
+  IconPerson,
+  IconSearch,
+  IconSettings,
+  IconSubtract,
+  IconSync,
+  IconThumb,
+  IconTick,
+  IconUserShield,
+  IconUserShieldPrivacy,
+  IconView,
+};
