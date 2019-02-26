@@ -1,11 +1,11 @@
 import React from 'react';
 import Button from '../';
-import Icon from '../../../Icon';
+import { IconSettings } from '../../../Icon';
 
 export default {
   component: Button,
   props: {
-    iconLeft: <Icon name="Settings" />,
+    iconLeft: <IconSettings />,
     submitting: true,
   },
   children: 'Button',
