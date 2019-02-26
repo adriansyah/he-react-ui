@@ -8,9 +8,10 @@ exports[`<Button /> rendered correctly with fixture 1`] = `
   done={false}
   icon=""
   iconRight={
-    <mockConstructor
-      name="ArrowRight"
-      shadow={false}
+    <ArrowRight
+      fill="currentColor"
+      height={32}
+      width={32}
     />
   }
   keyline={false}
@@ -46,29 +47,22 @@ exports[`<Button /> rendered correctly with fixture 1`] = `
         <div
           className="iconRight"
         >
-          <mockConstructor
-            name="ArrowRight"
-            shadow={false}
+          <ArrowRight
+            fill="currentColor"
+            height={32}
+            width={32}
           >
-            <ArrowRight
-              className="icon"
+            <svg
               fill="currentColor"
               height={32}
+              viewBox="0 0 24 24"
               width={32}
             >
-              <svg
-                className="icon"
-                fill="currentColor"
-                height={32}
-                viewBox="0 0 24 24"
-                width={32}
-              >
-                <path
-                  d="M18.586 13H3a1 1 0 1 1 0-2h15.586l-4.293-4.293a1 1 0 1 1 1.414-1.414l6 6a1 1 0 0 1 0 1.414l-6 6a1 1 0 0 1-1.414-1.414L18.586 13z"
-                />
-              </svg>
-            </ArrowRight>
-          </mockConstructor>
+              <path
+                d="M18.586 13H3a1 1 0 1 1 0-2h15.586l-4.293-4.293a1 1 0 1 1 1.414-1.414l6 6a1 1 0 0 1 0 1.414l-6 6a1 1 0 0 1-1.414-1.414L18.586 13z"
+              />
+            </svg>
+          </ArrowRight>
         </div>
       </button>
     </InnerButton>
